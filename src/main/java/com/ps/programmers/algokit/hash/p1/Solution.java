@@ -1,4 +1,4 @@
-package com.ps.programmers.ponketmon;
+package com.ps.programmers.algokit.hash.p1;
 
 import java.util.HashMap;
 
