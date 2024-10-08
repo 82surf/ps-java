@@ -2,7 +2,7 @@ package com.ps.study.permutations;
 
 import java.util.*;
 
-public class Example1 {
+public class Permutation {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
         List<Integer> current = new ArrayList<>();
