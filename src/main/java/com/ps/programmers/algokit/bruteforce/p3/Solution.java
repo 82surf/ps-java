@@ -1,4 +1,4 @@
-package com.ps.programmers.algokit.greedy.p3;
+package com.ps.programmers.algokit.bruteforce.p3;
 
 import java.util.*;
 import java.util.stream.*;
