@@ -1,6 +1,4 @@
-package com.ps.programmers.algokit.dp.p2;
-
-import java.util.*;
+package com.ps.programmers.algokit.dp.p3;
 
 class Solution {
     public int solution(int m, int n, int[][] puddles) {
