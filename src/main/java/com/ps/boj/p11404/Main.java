@@ -33,7 +33,7 @@ public class Main {
         for (int k = 1; k <= n; k++) {
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= n; j++) {
-                        graph[i][j] = Math.min(graph[i][j], graph[i][k] + graph[k][j]);
+                    graph[i][j] = Math.min(graph[i][j], graph[i][k] + graph[k][j]);
                 }
             }
         }
@@ -44,7 +44,7 @@ public class Main {
     public static void printGraph(int n, int[][] graph) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                System.out.print("" + graph[i][j] + " ");
+                System.out.print(graph[i][j] == 10000001 ? "0 " : "" + graph[i][j] + " ");
             }
             System.out.println();
         }
