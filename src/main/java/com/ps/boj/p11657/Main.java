@@ -39,7 +39,7 @@ public class Main {
         Arrays.fill(dist, INF);
         dist[start] = 0;
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N - 1; i++) {
             for (Edge edge : graph) {
                 if (dist[edge.from] != INF && dist[edge.to] > dist[edge.from] + edge.cost) {
                     dist[edge.to] = dist[edge.from] + edge.cost;
