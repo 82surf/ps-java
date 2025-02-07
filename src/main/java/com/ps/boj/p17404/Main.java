@@ -23,7 +23,6 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (i != j) {
-                    // System.out.println(i + " " + j);
                     int result = makeDP(i, j);
                     if (answer > result) {
                         answer = result;
@@ -64,21 +63,7 @@ public class Main {
                 }
             }
         }
-        // printMatrix(dp);
 
-        int minVal = dp[N - 1][chosenLastHouse];
-        // System.out.println("minVal: " + minVal);
-        // System.out.println();
-
-        return minVal;
+        return dp[N - 1][chosenLastHouse];
     }
-
-    // static void printMatrix(int[][] matrix) {
-    //     for (int[] m : matrix) {
-    //         for (int i = 0; i < 3; i++) {
-    //             System.out.print((m[i] == INF ? "INF" : m[i]) + " ");
-    //         }
-    //         System.out.println();
-    //     }
-    // }
 }
